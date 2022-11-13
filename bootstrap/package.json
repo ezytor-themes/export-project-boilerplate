@@ -1,0 +1,30 @@
+{
+    "name": "ezytor-theme",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "dev": "webpack --mode development",
+        "watch": "webpack --mode development --watch",
+        "build": "webpack --mode production",
+        "grunt": "grunt"
+    },
+    "author": "Ezytor",
+    "license": "https://ezytor.com/policy",
+    "dependencies": {
+        "bootstrap": "5.2.1",
+        "bundle-master": "^1.0.2"
+    },
+    "devDependencies": {
+        "bundle-master": "^1.1.1",
+        "css-loader": "^6.7.1",
+        "grunt-contrib-cssmin": "^4.0.0",
+        "grunt-uncss": "^0.10.1",
+        "ignore-emit-webpack-plugin": "^2.0.6",
+        "mini-css-extract-plugin": "^2.6.1",
+        "sass": "^1.49.11",
+        "sass-loader": "^12.6.0",
+        "webpack": "^5.72.0",
+        "webpack-cli": "^4.8.0",
+        "webpack-dev-server": "^4.2.1"
+    }
+}
