@@ -1,0 +1,14 @@
+{
+    "name": "ezytor-theme",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "dev": "tailwindcss -i scss/app.scss -o ./public/assets/css/app.css",
+        "watch": "tailwindcss -i scss/app.scss -o ./public/assets/css/app.css --watch"
+    },
+    "author": "Ezytor",
+    "license": "https://ezytor.com/policy",
+    "devDependencies": {
+        "tailwindcss": "^3.2.4"
+    }
+}

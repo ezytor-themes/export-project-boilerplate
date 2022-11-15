@@ -6,7 +6,7 @@
         "dev": "webpack --mode development",
         "watch": "webpack --mode development --watch",
         "build": "webpack --mode production",
-        "grunt": "grunt"
+        "cleancss": "grunt"
     },
     "author": "Ezytor",
     "license": "https://ezytor.com/policy",

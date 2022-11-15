@@ -28,9 +28,15 @@
   border: 0 !important;
 }
 
-/* rtl:begin:remove */
-
 /* rtl:end:remove */
 .test {
   color: red;
+}
+
+.about {
+  background: green;
+}
+
+.about .link-about {
+  font-size: 100px;
 }

@@ -2,9 +2,9 @@ module.exports = function (grunt) {
     grunt.initConfig({
         uncss: {
             dist: {
-                files: [
-                    { src: 'public/index.html', dest: 'public/assets/css/app.css' }
-                ]
+                files: {
+                    'public/assets/css/app.css': ['public/index.html', 'public/about.html']
+                }
             }
         },
         cssmin: {
@@ -16,10 +16,8 @@ module.exports = function (grunt) {
         }
     });
 
-    // Load the plugins
     grunt.loadNpmTasks('grunt-uncss');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
 
-    // Default tasks
-    grunt.registerTask('default', ['uncss', 'cssmin']);
+    grunt.registerTask('default', ['uncss', /** 'cssmin' **/ ]);
 };
